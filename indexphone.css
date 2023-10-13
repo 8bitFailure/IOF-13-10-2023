@@ -1,0 +1,21 @@
+#mobile{
+    background: azure;
+    text-align: center;
+    height: 100vh;
+    font-size: 4.5vw;
+
+    animation: infinite 15s bgchanger;
+}
+
+@keyframes bgchanger {
+    0% {background-color: aliceblue;}
+    20% {background-color: rgb(226, 236, 244);}
+    40% {background-color: rgb(225, 241, 239);}
+    60% {background-color: rgb(243, 229, 240);}
+    80% {background-color: rgb(240, 232, 244);}
+    100% {background-color: aliceblue;}
+}
+
+#mobileimg{
+    width: 60%;
+}
